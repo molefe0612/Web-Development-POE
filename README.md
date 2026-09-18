@@ -52,6 +52,17 @@ TS-Lets Confectionary began as a local home-based baking operation before expand
 ## Part 1 Details
 This initial milestone centers around foundational planning parameters, structural asset curation, architecture layout strategies, and primary baseline front-end asset organization. Subsequent procedural additions highlighting script behaviors, micro-interactions, and visual layouts will follow in Part 2 and Part 3 phase updates.
 
+
+## Part 2 Details
+This phase is about a professional, cohesive presentation layer using **CSS**  over the baseline semantic structures. 
+
+### Key Technical Executions:
+* **Global Box Normalization:** Utilizes full universal border-box resets (`* {box-sizing: border-box}`) to eliminate unwanted margin/padding overflow issues.
+* **Cohesive Bakery Theme:** Establishes visual hierarchy using a warm palette consisting of a dark chocolate header/text theme (`#4A2E2B`), contrasting bright pink structural border lines (`#E05A7B`), and deep pastel canvas base filters (`#EBE0D5`).
+* **Responsive Architecture:** Implements a fluid **CSS Grid Layout** with multi-device breakpoints (`@media`) that gracefully scale from large desktop windows down into a single-column layout optimized for smartphone shoppers.
+* **Interactive Enhancements:** Features high-performance interactive states including native hover scale transforms (`scale(1.06)`) on product cake cards and dynamic accessibility outline rings (`#FF69B4`) for navigation links during keyboard focus.
+
+
 ## Sitemap
 ```text
 [root]
