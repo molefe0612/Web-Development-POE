@@ -3,56 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TS-lets confectionary - Contact Us</title>
+    <title>TS-lets Confectionary - Contact Us</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
-<body style="background-color: #ebe0d5;">
+<body>
 
-    <!-- HEADER AND NAVIGATION -->
-    <center>
-        <h1><big><font face="Playfair Display" size="+9" color="#FFB0C9">CONTACT US</font></big></h1>
-       
-    
-    
-    <section>
-        <h2><font face="Playfair Display" color="#7B3F00">Get In Touch</font></h2>
-        <p><font face="Playfair Display" size="+1" color="#7B3F00">Have a question about our celebration cakes or want to place an  order? Send us a message or visit us directly!</font></p>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <header class="main-header">
+        <!-- Quick Brand Identifier Links Back to Home -->
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <div style="width: 40px; height: 40px; flex-shrink: 0; overflow: hidden; border-radius: 50%; border: 1px solid #FFB6C1;">
+                <img src="../images/logo.jpg" alt="TS-lets Confectionary Logo" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            </div>
+            <a href="index.html" class="brand-title" style="text-decoration: none; font-size: 1.5rem;">Ts lets confectionary</a>
+        </div>
+
+        <!--Inline Navigation Menu and Button -->
+        <nav class="links">
+            <a href="about.html" target="_blank">About Us</a>
+            <a href="products.html" target="_blank">Bakery Menu</a>
+            <a href="contact.html" target="_blank">Contact Us</a>
+            <a href="enquiry.html" target="_blank" class="order-action-link">Place Order</a>
+        </nav>
+    </header> 
+
+    <!-- Page Title Header Section -->
+    <div style="text-align: center; padding: 40px 20px 10px;">
+        <h1 style="font-family: 'Playfair Display', serif; font-size: 3rem; color: #4A2E2B; margin: 0; letter-spacing: 2px;">CONTACT US</h1>
+    </div>
+
+    <!-- Main Content Layout Section -->
+    <main style="max-width: 800px; margin: 20px auto 40px; padding: 0 20px;">
         
-        <ul>
-            <font face="Playfair Display" color="#7B3F00"><b></b></font>
-            <font face="Playfair Display" color="#7B3F00"><b> <a href="tel:+27738444801">Phone:073 844 4801</a>|</b></font>
-            <font face="Playfair Display" color="#7B3F00"><b> <a href="mailto:tsletsconfectionary@gmail.com">Email: tsletsconfectionary@gmail.com</a>|</b></font>
-             <font face="Playfair Display" color="#7B3F00"><b> <a href="https://maps.app.goo.gl/j3kaFtQAUrwAG1mq6" target="_blank">Visit Our Location</a>|</b></font>
+        <!-- Container Card -->
+        <div style="background-color: #FFFFFF; border-radius: 12px; border: 2px solid #FFD1DC; padding: 40px; box-shadow: 0px 4px 12px rgba(74, 46, 43, 0.05); text-align: center; margin-bottom: 30px;">
+            <h2 style="font-family: 'Playfair Display', serif; color: #4A2E2B; margin-bottom: 15px;">Get In Touch</h2>
+            <p style="margin-bottom: 35px; color: #5C3A21;">Have a question about our celebration cakes or want to place an order? Send us a message or visit us directly!</p>
+            
+            <!-- Contact Details Grid List -->
+            <ul style="list-style: none; padding: 0; margin: 0 0 35px 0; display: flex; flex-direction: column; gap: 20px; align-items: center;">
+                <li style="font-size: 1.2rem;">
+                    <i class="fas fa-phone" style="color: #A36B5E; margin-right: 10px;"></i>
+                    <a href="tel:+27738444801" style="color: #4A2E2B; text-decoration: none; font-weight: bold;">073 844 4801</a>
+                </li>
+                <li style="font-size: 1.2rem;">
+                    <i class="fas fa-envelope" style="color: #A36B5E; margin-right: 10px;"></i>
+                    <a href="mailto:tsletsconfectionary@gmail.com" style="color: #4A2E2B; text-decoration: none; font-weight: bold;">tsletsconfectionary@gmail.com</a>
+                </li>
+                <li style="font-size: 1.2rem;">
+                    <i class="fas fa-map-marker-alt" style="color: #A36B5E; margin-right: 10px;"></i>
+                    <a href="https://maps.app.goo.gl/xaVgTq24NYm9nyX9A" target="_blank" style="color: #4A2E2B; text-decoration: none; font-weight: bold; border-bottom: 2px dashed #A36B5E; padding-bottom: 2px;">Visit Our Location</a>
+                </li>
+            </ul>
+<!-- Secure Dynamic Map Container -->
+<a href="https://maps.app.goo.gl/xaVgTq24NYm9nyX9A" target="_blank" style="text-decoration: none; display: block;">
+    <div style="width: 100%; height: 350px; border-radius: 8px; overflow: hidden; border: 1px solid #FFD1DC; background-color: #fcf8f5; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: background-color 0.2s; box-shadow: 0 2px 8px rgba(0,0,0,0.02);">
+        <i class="fas fa-map-marked-alt" style="font-size: 3.5rem; color: #A36B5E; margin-bottom: 15px;"></i>
+        <p style="margin: 0 0 5px 0; font-weight: bold; color: #4A2E2B; font-size: 1.2rem;">View Interactive Location Map</p>
+        <span style="color: #7A6361; font-size: 0.9rem; border-bottom: 1px dashed #A36B5E; padding-bottom: 2px;">Click here to open directions in Google Maps</span>
+    </div>
+</a>
 
-        </ul>
+        </div>
 
-    </center>
+    </main>
 
-
-    
-</section>
-
-    <center>
-        <big><img src="../images/logo.jpg" alt="myCake" width="400" height="300"></big>
-
-    </center>
-
-
-    <!-- ALLOWS USER TO NAVIGATE BACK TO THE HOMEPAGE -->
-    <a href="index.html" target="_self">back home</a>
-
-
-
-<!-- FOOTER -->
-     <center>
-        <br><br>
-        <hr width="50%" color="#7B3F00" size="1">
-        <br>
-        <p>
-            <font face="Playfair Display" size="2" color="#7B3F00">
-             &copy; 2026 TS-lets Confectionary | Freshly Baked Daily
-            </font>
-        </p>
-    </center>
+    <!-- FOOTER SECTION -->
+    <footer class="main-footer">
+        <div style="margin-bottom: 20px;">
+            <a href="index.html" style="color: #4A2E2B; font-weight: bold; text-decoration: none; border-bottom: 2px solid #A36B5E; padding-bottom: 2px;">&larr; Back to Home</a> 
+        </div>
+        <hr class="footer-divider">
+        <p>&copy; 2026 TS-lets Confectionary | Freshly Baked Daily</p>
+    </footer>
 
 </body>
 </html>
+
