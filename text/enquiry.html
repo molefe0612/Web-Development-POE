@@ -3,86 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TS-Lets Confectionary- Place order</title>
+    <title>TS-Lets Confectionary - Place Order</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body style="background-color: #ebe0d5;">
-    <!-- HEADER AND NAVIGATION -->
-<center><h1><big><font face="Playfair Display" size="+8" color="#FFB0C9">PLACE ORDER</font></big></h1></center>
-    
-     <center>
-    <table border="0" cellpadding="2" cellspacing="2" width="100%"> 
-   <tr>
-    <td><font face="Playfair Display" size="+2"><a href="about.html" target="about-tab"style="color: #7B3F00;">About Us</a></font></td>
-    <td><font face="Playfair Display" size="+2"><a href="products.html" target="products-tab" style="color: #7B3F00;">Bakery Menu</a></font></td>
-    <td><font face="Playfair Display" size="+2"><a href="contact.html" target="contact-tab" style="color: #7B3F00;">Contact Us</a></font></td>
-    <td><font face="Playfair Display" size="+2"><a href="enquiry.html" target="enquiry-tab" style="color: #7B3F00;">Place Order</a></font></td>
-   </tr>
-    </table>
-    </center>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<br><br> <br><br>
+    <!-- HEADER: Matches the homepage unified navigation strip layout -->
+    <header class="main-header">
+        <!-- Left: Quick Brand Identifier Links Back to Home -->
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <div style="width: 40px; height: 40px; flex-shrink: 0; overflow: hidden; border-radius: 50%; border: 1px solid #FFB6C1;">
+                <img src="../images/logo.jpg" alt="TS-lets Confectionary Logo" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            </div>
+            <a href="index.html" class="brand-title" style="text-decoration: none; font-size: 1.5rem;">Ts lets confectionary</a>
+        </div>
 
+        <!--  Inline Navigation Menu and Button -->
+        <nav class="links">
+            <a href="about.html" target="_blank">About Us</a>
+            <a href="products.html" target="_blank">Bakery Menu</a>
+            <a href="contact.html" target="_blank">Contact Us</a>
+            <a href="enquiry.html" target="_blank" class="order-action-link">Place Order</a>
+        </nav>
+    </header>
 
- <!-- Placing Order Form-->
-    <main style="max-width: 600px; margin: 0 auto; font-family: Playfair Display, sans-serif;">
+    <!-- Page Title Banner Section -->
+    <div style="text-align: center; padding: 40px 20px 20px;">
+        <h1 style="font-family: 'Playfair Display', serif; font-size: 3rem; color: #4A2E2B; margin: 0; letter-spacing: 2px;">PLACE ORDER</h1>
+    </div>
+  
+    <!-- Modernized Placement Order Form Container Box -->
+    <main style="max-width: 600px; margin: 20px auto 40px; padding: 30px; background-color: #FFFFFF; border-radius: 12px; border: 2px solid #FFD1DC; box-shadow: 0px 4px 12px rgba(74, 46, 43, 0.05);">
         <section>
             <form action="index.html" method="get">
-                <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                <table border="0" cellpadding="12" cellspacing="0" width="100%">
                     <tr>
-                        <td><b><label for="name">Full Names:</label></b></td>
-                        <td><input type="text" id="name" name="name" required style="width:100%;" placeholder="Enter your full names"></td>
+                        <td width="30%"><b><label for="name">Full Names:</label></b></td>
+                        <td><input type="text" id="name" name="name" required style="width:100%; padding: 8px; border: 1px solid #FFD1DC; border-radius: 4px;" placeholder="Enter your full names"></td>
                     </tr>
                     <tr>
                         <td><b><label for="sname">Surname:</label></b></td>
-                        <td><input type="text" id="sname" name="sname" required style="width:100%;" placeholder="Enter your surname"></td>
+                        <td><input type="text" id="sname" name="sname" required style="width:100%; padding: 8px; border: 1px solid #FFD1DC; border-radius: 4px;" placeholder="Enter your surname"></td>
                     </tr>
                     <tr>
                         <td><b><label for="email">Email Address:</label></b></td>
-                        <td><input type="email" id="email" name="email" required style="width:100%;" placeholder="Enter your email address"></td>
+                        <td><input type="email" id="email" name="email" required style="width:100%; padding: 8px; border: 1px solid #FFD1DC; border-radius: 4px;" placeholder="Enter your email address"></td>
                     </tr>
                     <tr>
                         <td><b><label for="phone">Phone Number:</label></b></td>
-                        <td><input type="tel" id="phone" name="phone" required style="width:100%;" placeholder="Enter your phone number"></td>
+                        <td><input type="tel" id="phone" name="phone" required style="width:100%; padding: 8px; border: 1px solid #FFD1DC; border-radius: 4px;" placeholder="Enter your phone number"></td>
                     </tr>
                     <tr>
                         <td><b><label for="product">Select Choice:</label></b></td>
                         <td>
-                            <select id="product" name="product" style="width:100%;">
+                            <!--  SELECT DROPDOWN CONTAINER  -->
+                            <select id="product" name="product" style="width:100%; padding: 8px; border: 1px solid #FFD1DC; border-radius: 4px; background-color: #fff;">
                                 <option value="celebration">Celebration Cakes</option>
                                 <option value="themed">Themed Cakes</option>
-                                <option value="biscuits">Biscuits </option>
+                                <option value="biscuits">Biscuits</option>
                                 <option value="cupcakes">Cupcakes</option>
-                                <option value="scones">Fresh Scones </option>
+                                <option value="scones">Fresh Scones</option>
+                                <option value="platters">Assorted Platters</option> 
                             </select>
                         </td>
                     </tr>
                     <tr>
-                        <td valign="top"><b><label for="msg">Order Details:</label></b></td>
-                        <td><textarea id="msg" name="msg" rows="5" style="width:100%;" placeholder="Provide details aboot flavors, sizes, custom text or specific dietary needs..."></textarea></td>
+                        <td valign="top" style="padding-top: 15px;"><b><label for="msg">Order Details:</label></b></td>
+                        <td><textarea id="msg" name="msg" rows="5" style="width:100%; padding: 8px; border: 1px solid #FFD1DC; border-radius: 4px; font-family: Arial, sans-serif;" placeholder="Provide details about flavors, sizes, custom text or specific dietary needs..."></textarea></td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td><input type="submit" value="Submit Custom Enquiry" style= " background-color: #FFB0C9; color: #7B3F00; padding: 10px 20px; font-weight: bold; border:none; border-radius:3px; cursor:pointer;"></td>
+                        <td style="padding-top: 15px;">
+                            <input type="submit" value="Submit Custom Enquiry" style="background-color: #A36B5E; color: #FFFFFF; padding: 12px 24px; font-weight: bold; border: none; border-radius: 20px; cursor: pointer; transition: background-color 0.2s; width: 100%;">
+                        </td>
                     </tr>
                 </table>
             </form>
         </section>
     </main>
 
-<a href="index.html" target="_self">Back to Home</a>
-<!--FOOTER-->
- <center>
-        <br><br>
-        <hr width="50%" color="#7B3F00" size="1">
-        <br>
-        <p>
-            <font face="Playfair Display" size="2" color="#7B3F00">
-             &copy; 2026 TS-lets Confectionary | Freshly Baked Daily
-            </font>
-        </p>
-    </center>
+    <!-- Navigation Breadcrumb -->
+    <div style="text-align: center; margin-bottom: 40px;">
+        <a href="index.html" target="_self" style="color: #4A2E2B; text-decoration: none; font-weight: bold; border-bottom: 2px solid #A36B5E; padding-bottom: 2px;">&larr; Back to Home</a>
+    </div>
 
+    <!-- STANDARD MAIN FOOTER COMPONENT -->
+    <footer class="main-footer">
+        <hr class="footer-divider"> 
+        <p>&copy; 2026 TS-lets Confectionary | Freshly Baked Daily</p>
+    </footer>
 
-\
 </body>
 </html>
+

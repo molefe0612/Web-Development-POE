@@ -3,139 +3,136 @@
 <head> 
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>TS-lets confectionary - Products</title> 
+    <title>TS-lets Confectionary - Bakery Menu</title> 
+    <link rel="stylesheet" href="../css/style.css">
 </head> 
 
-<body style="background-color: #dad1c8;">
-    <!-- HEADER AND NAVIGATION-->
-    <center><h1><big><font face="Playfair Display" size="+9" color="#FFB0C9">PRODUCTS</font></big></h1></center> 
+<body>
 
- <table border="0" cellpadding="2" cellspacing="2" width="100%"> 
-   <tr>
-    <td><font face="Playfair Display" size="+2"><a href="about.html" target="about-tab"style="color: #7B3F00;">About Us</a></font></td>
-    <td><font face="Playfair Display" size="+2"><a href="products.html" target="products-tab" style="color: #7B3F00;">Bakery Menu</a></font></td>
-    <td><font face="Playfair Display" size="+2"><a href="contact.html" target="contact-tab" style="color: #7B3F00;">Contact Us</a></font></td>
-    <td><font face="Playfair Display" size="+2"><a href="enquiry.html" target="enquiry-tab" style="color: #7B3F00;">Place Order</a></font></td>
-   </tr>
-    </table>
-    </center>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+    
+    <header class="main-header">
+       
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <div style="width: 40px; height: 40px; flex-shrink: 0; overflow: hidden; border-radius: 50%; border: 1px solid #FFB6C1;">
+                <img src="../images/logo.jpg" alt="TS-lets Confectionary Logo" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            </div>
+            <a href="index.html" class="brand-title" style="text-decoration: none; font-size: 1.5rem;">Ts lets confectionary</a>
+        </div>
 
-<main>
+        <!--Inline Navigation Menu and Button -->
+        <nav class="links">
+            <a href="about.html" target="_blank">About Us</a>
+            <a href="products.html" target="_blank">Bakery Menu</a>
+            <a href="contact.html" target="_blank">Contact Us</a>
+            <a href="enquiry.html" target="_blank" class="order-action-link">Place Order</a>
+        </nav>
+    </header> 
+
+    <!-- Page Title Header Banner Section -->
+    <div style="text-align: center; padding: 40px 20px 10px;">
+        <h1 style="font-family: 'Playfair Display', serif; font-size: 3rem; color: #4A2E2B; margin: 0; letter-spacing: 2px;">OUR BAKERY MENU</h1>
+        <p style="color: #5C3A21; margin-top: 10px; font-size: 1.1rem;">Freshly baked daily with love and high-quality ingredients.</p>
+    </div>
+
+    <!-- MAIN PRODUCT GRID  -->
+    <main class="product-grid">
         
-        <!-- CELEBRATION CAKES PRICES -->
-        <table border="0" cellpadding="10" cellspacing="0" width="100%">
-            <tr>
-                <td width="60%" valign="top">
-                    <h3><font face="Playfair Display" size="+2" color="#7B3F00">CELEBRATION CAKES</font></h3> 
-                    <ul> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>Vanilla flavored: From Price-R500.00</b></font></li> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>Chocolate flavored: From Price-R500.00</b></font></li> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>Red Velvet: From Price-R530.00</b></font></li> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>Caramel Flavored: From Price-R540.00</b></font></li> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>Black Forest: From Price-R580.00</b></font></li> 
-                    </ul> 
-                </td>
-                <td width="40%" align="center">
-                    <img src="../images/cake11.jpg" alt="Celebration Cake" width="280" height="200" border="0">
-                </td>
-            </tr>
-        </table>
+        <!-- CELEBRATION CAKES CARD -->
+        <div class="product-card">
+            <div class="image-zoom-box">
+                <img src="../images/cake11.jpg" alt="Celebration Cake">
+            </div>
+            <h3 class="product-title">Celebration Cakes</h3>
+            <ul> 
+                <li>Vanilla Flavoured <b>From R500.00</b></li> 
+                <li>Chocolate Flavoured <b>From R500.00</b></li> 
+                <li>Red Velvet <b>From R530.00</b></li> 
+                <li>Caramel Flavoured <b>From R540.00</b></li> 
+                <li>Black Forest <b>From R580.00</b></li> 
+            </ul> 
+        </div>
 
-        <br><hr color="#FFB0C9" size="1"><br>
+        <!-- THEMED CAKES CARD -->
+        <div class="product-card">
+            <div class="image-zoom-box">
+                <img src="../images/cake04.jpg" alt="Special Themed Cake">
+            </div>
+            <h3 class="product-title">Themed Cakes</h3>
+            <ul> 
+                <li>Vanilla Flavoured <b>From R600.00</b></li> 
+                <li>Chocolate Flavoured <b>From R600.00</b></li> 
+                <li>Red Velvet <b>From R730.00</b></li> 
+                <li>Caramel Flavoured <b>From R640.00</b></li> 
+                <li>Black Forest <b>From R680.00</b></li> 
+            </ul> 
+        </div>
 
-        <!-- THEMED CAKES PRICES -->
-        <table border="0" cellpadding="10" cellspacing="0" width="100%">
-            <tr>
-                <td width="60%" valign="top">
-                    <h3><font face="Playfair Display" size="+2" color="#7B3F00">THEMED CAKES</font></h3> 
-                    <ul> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>Vanilla flavored: From Price-R600.00</b></font></li> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>Chocolate flavored: From Price-R600.00</b></font></li> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>Red Velvet: From Price-R730.00</b></font></li> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>Caramel Flavored: From Price-R640.00</b></font></li> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>Black Forest: From Price-R680.00</b></font></li> 
-                    </ul> 
-                </td>
-                <td width="40%" align="center">
-                    <img src="../images/cake04.jpg" alt="Special Themed Cake" width="280" height="200" border="0">
-                </td>
-            </tr>
-        </table>
+        <!-- BISCUITS CARD -->
+        <div class="product-card">
+            <div class="image-zoom-box">
+                <img src="../images/biscuit1.jpg" alt="Biscuits Platter">
+            </div>
+            <h3 class="product-title">Biscuits</h3>
+            <ul> 
+                <li>5 Litre Bucket <b>R320.00</b></li> 
+                <li>10 Litre Bucket <b>R500.00</b></li> 
+                <li>20 Litre Bucket <b>R900.00</b></li> 
+            </ul> 
+        </div>
 
-        <br><hr color="#FFB0C9" size="1"><br>
+        <!-- CUPCAKES CARD -->
+        <div class="product-card">
+            <div class="image-zoom-box">
+                <img src="../images/cupcake1.jpg" alt="Cupcakes">
+            </div>
+            <h3 class="product-title">Cupcakes</h3>
+            <ul> 
+                <li>Vanilla Flavoured <b>R12.00 each</b></li> 
+                <li>Chocolate Flavoured <b>R14.00 each</b></li> 
+            </ul> 
+        </div>
 
-        <!--  BISCUITS -->
-        <table border="0" cellpadding="10" cellspacing="0" width="100%">
-            <tr>
-                <td width="60%" valign="top">
-                    <h3><font face="Playfair Display" size="+2" color="#7B3F00">BISCUITS</font></h3> 
-                    <ul> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>5litre Biscuits: Price-R320.00</b></font></li> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>10litre Biscuits: Price-R500.00</b></font></li> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>20litre Biscuits: Price-R900.00</b></font></li> 
-                    </ul> 
-                </td>
-                <td width="40%" align="center">
-                    <img src="../images/biscuit1.jpg" alt="Biscuits Platter" width="280" height="200" border="0">
-                </td>
-            </tr>
-        </table>
+        <!-- SCONES CARD -->
+        <div class="product-card">
+            <div class="image-zoom-box">
+                <img src="../images/scones2.jpg" alt="Fresh Baked Scones">
+            </div>
+            <h3 class="product-title">Scones</h3>
+            <ul> 
+                <li>Plain Individual Scone <b>R7.00</b></li>
+                <li>5 Litre Bucket <b>R190.00</b></li> 
+                <li>10 Litre Bucket <b>R350.00</b></li> 
+                <li>20 Litre Bucket <b>R600.00</b></li> 
+            </ul> 
+        </div>
 
-        <br><hr color="#FFB0C9" size="1"><br>
-
-        <!-- CUPCAKES PRICES -->
-        <table border="0" cellpadding="10" cellspacing="0" width="100%">
-            <tr>
-                <td width="60%" valign="top">
-                    <h3><font face="Playfair Display" size="+2" color="#7B3F00">CUPCAKES</font></h3> 
-                    <ul> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>Vanilla flavored CupCakes: Price-R12.00</b></font></li> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>Chocolate flavored CupCakes: Price-R14.00</b></font></li> 
-                    </ul> 
-                </td>
-                <td width="40%" align="center">
-                    <img src="../images/cupcake1.jpg" alt="Cupcakes" width="280" height="200" border="0">
-                </td>
-            </tr>
-        </table>
-
-        <br><hr color="#FFB0C9" size="1"><br>
-
-        <!-- SCONES PRICES -->
-        <table border="0" cellpadding="10" cellspacing="0" width="100%">
-            <tr>
-                <td width="60%" valign="top">
-                    <h3><font face="Playfair Display" size="+2" color="#7B3F00">SCONES</font></h3> 
-                    <ul> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>Plain Individual Scone: Price-R7.00</b></font></li>
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>5litre Scones: Price-R190.00</b></font></li> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>10litre Scones: Price-R350.00</b></font></li> 
-                        <li><font face="Playfair Display" size="+1" color="#7B3F00"><b>20litre Scones: Price-R600.00</b></font></li> 
-                    </ul> 
-                </td>
-                <td width="40%" align="center">
-                    <img src="../images/scones2.jpg" alt="Fresh Baked Scones" width="280" height="200" border="0">
-                </td>
-            </tr>
-        </table>
+        <!-- ASSORTED PLATTERS CARD  -->
+        <div class="product-card">
+            <div class="image-zoom-box">
+                <img src="../images/platter.jpg" alt="Assorted Sweet Platters">
+            </div>
+            <h3 class="product-title">Assorted Platters</h3>
+            <ul> 
+                <li>Mini Cupcake Platter <b>From R240.00</b></li> 
+                <li>Mixed Biscuit & Scone Box <b>From R350.00</b></li> 
+                <li>Executive Sweet Platter <b>From R480.00</b></li> 
+                <li>Custom Party Platter <b>From R550.00</b></li> 
+            </ul> 
+        </div>
 
     </main>
-    <br>
-    <a href="index.html" target="_self">Back to Home</a> 
 
-<!-- FOOTER -->
-     <center>
-        <br><br>
-        <hr width="50%" color="#7B3F00" size="1">
-        <br>
-        <p>
-            <font face="Playfair Display" size="2" color="#7B3F00">
-             &copy; 2026 TS-lets Confectionary | Freshly Baked Daily
-            </font>
-        </p>
-    </center>
+    <!-- FOOTER SECTION -->
+    <footer class="main-footer">
+        <div style="margin-bottom: 20px;">
+            <a href="index.html" style="color: #4A2E2B; font-weight: bold; text-decoration: none; border-bottom: 2px solid #A36B5E; padding-bottom: 2px;">&larr; Back to Home</a> 
+        </div>
+        <hr class="footer-divider">
+        <p>&copy; 2026 TS-lets Confectionary | Freshly Baked Daily</p>
+    </footer>
 
 </body> 
 </html>
