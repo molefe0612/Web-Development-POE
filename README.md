@@ -52,9 +52,13 @@ TS-Lets Confectionary began as a local home-based baking operation before expand
 ## Part 1 Details
 This initial milestone centers around foundational planning parameters, structural asset curation, architecture layout strategies, and primary baseline front-end asset organization. Subsequent procedural additions highlighting script behaviors, micro-interactions, and visual layouts will follow in Part 2 and Part 3 phase updates.
 
-
 ## Part 2 Details
 This phase is about a professional, cohesive presentation layer using **CSS**  over the baseline semantic structures. 
+
+## Changes made within the html structure of part 1 and part 2
+ 
+ I have changed a few tags like <table>, <tr> and <td> to <div> and <span>. These new changes makes to become more organized and well alligned, at first i have been using the table tag as a way to make my pictures align easly but they were not easy to modify plus they were making my structure too complicated sometimes making it complicated to edit which causes more errors so i used the div tag which is far easier to understand and makes the structure more cleaner.
+
 
 ### Key Technical Executions:
 * **Global Box Normalization:** Utilizes full universal border-box resets (`* {box-sizing: border-box}`) to eliminate unwanted margin/padding overflow issues.
