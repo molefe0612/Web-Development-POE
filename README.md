@@ -67,6 +67,12 @@ This phase is about a professional, cohesive presentation layer using **CSS**  o
 * **Interactive Enhancements:** Features high-performance interactive states including native hover scale transforms (`scale(1.06)`) on product cake cards and dynamic accessibility outline rings (`#FF69B4`) for navigation links during keyboard focus.
 
 
+## Part 3 Details
+
+* ** Search engine optimisation
+* ** The practice of imrpoving a website's content and structure in a way that helps visitors find answers to their key questions.
+* ** 
+
 ## Sitemap
 ```text
 [root]
