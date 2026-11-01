@@ -3,18 +3,17 @@
 <head> 
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="Explore the full bakery menu at TS-lets Confectionary. Prices and flavors for celebration cakes, themed cakes, biscuits, cupcakes, scones, and assorted party platters.">
     <title>TS-lets Confectionary - Bakery Menu</title> 
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head> 
 
 <body>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    
     <header class="main-header">
-       
         <div style="display: flex; align-items: center; gap: 15px;">
             <div style="width: 40px; height: 40px; flex-shrink: 0; overflow: hidden; border-radius: 50%; border: 1px solid #FFB6C1;">
                 <img src="../images/logo.jpg" alt="TS-lets Confectionary Logo" style="width: 100%; height: 100%; object-fit: cover; display: block;">
@@ -22,12 +21,12 @@
             <a href="index.html" class="brand-title" style="text-decoration: none; font-size: 1.5rem;">Ts lets confectionary</a>
         </div>
 
-        <!--Inline Navigation Menu and Button -->
+        <!-- Inline Navigation Menu -->
         <nav class="links">
-            <a href="about.html" target="_blank">About Us</a>
-            <a href="products.html" target="_blank">Bakery Menu</a>
-            <a href="contact.html" target="_blank">Contact Us</a>
-            <a href="enquiry.html" target="_blank" class="order-action-link">Place Order</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Bakery Menu</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="enquiry.html" class="order-action-link">Place Order</a>
         </nav>
     </header> 
 
@@ -35,6 +34,11 @@
     <div style="text-align: center; padding: 40px 20px 10px;">
         <h1 style="font-family: 'Playfair Display', serif; font-size: 3rem; color: #4A2E2B; margin: 0; letter-spacing: 2px;">OUR BAKERY MENU</h1>
         <p style="color: #5C3A21; margin-top: 10px; font-size: 1.1rem;">Freshly baked daily with love and high-quality ingredients.</p>
+        
+        <!-- Live Product Search Bar using java script -->
+        <div style="margin-top: 20px;">
+            <input type="text" id="menu-search" placeholder="Search menu items (e.g., celebration cake, Cupcakes)..." style="padding: 10px 15px; width: 80%; max-width: 400px; border: 2px solid #FFD1DC; border-radius: 20px; outline: none; font-size: 1rem;">
+        </div>
     </div>
 
     <!-- MAIN PRODUCT GRID  -->
@@ -117,7 +121,7 @@
             <h3 class="product-title">Assorted Platters</h3>
             <ul> 
                 <li>Mini Cupcake Platter <b>From R240.00</b></li> 
-                <li>Mixed Biscuit & Scone Box <b>From R350.00</b></li> 
+                <li>Mixed Biscuit &amp; Scone Box <b>From R350.00</b></li> 
                 <li>Executive Sweet Platter <b>From R480.00</b></li> 
                 <li>Custom Party Platter <b>From R550.00</b></li> 
             </ul> 
@@ -133,6 +137,9 @@
         <hr class="footer-divider">
         <p>&copy; 2026 TS-lets Confectionary | Freshly Baked Daily</p>
     </footer>
+
+    <!-- External JavaScript File link -->
+    <script src="../js/script.js" defer></script>
 
 </body> 
 </html>
