@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Place your custom order for celebration cakes, themed cakes, cupcakes, biscuits, and platters at TS-lets Confectionary in Mankweng and Polokwane.">
     <title>TS-Lets Confectionary - Place Order</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- HEADER: Matches the homepage unified navigation strip layout -->
+    
     <header class="main-header">
         <!-- Left: Quick Brand Identifier Links Back to Home -->
         <div style="display: flex; align-items: center; gap: 15px;">
@@ -19,12 +22,12 @@
             <a href="index.html" class="brand-title" style="text-decoration: none; font-size: 1.5rem;">Ts lets confectionary</a>
         </div>
 
-        <!--  Inline Navigation Menu and Button -->
+        <!-- Inline Navigation Menu -->
         <nav class="links">
-            <a href="about.html" target="_blank">About Us</a>
-            <a href="products.html" target="_blank">Bakery Menu</a>
-            <a href="contact.html" target="_blank">Contact Us</a>
-            <a href="enquiry.html" target="_blank" class="order-action-link">Place Order</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Bakery Menu</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="enquiry.html" class="order-action-link">Place Order</a>
         </nav>
     </header>
 
@@ -33,10 +36,11 @@
         <h1 style="font-family: 'Playfair Display', serif; font-size: 3rem; color: #4A2E2B; margin: 0; letter-spacing: 2px;">PLACE ORDER</h1>
     </div>
   
-    <!-- Modernized Placement Order Form Container Box -->
+    <!-- Order Form Container Box -->
     <main style="max-width: 600px; margin: 20px auto 40px; padding: 30px; background-color: #FFFFFF; border-radius: 12px; border: 2px solid #FFD1DC; box-shadow: 0px 4px 12px rgba(74, 46, 43, 0.05);">
         <section>
-            <form action="index.html" method="get">
+            
+            <form id="order-form" action="index.html" method="get">
                 <table border="0" cellpadding="12" cellspacing="0" width="100%">
                     <tr>
                         <td width="30%"><b><label for="name">Full Names:</label></b></td>
@@ -52,12 +56,11 @@
                     </tr>
                     <tr>
                         <td><b><label for="phone">Phone Number:</label></b></td>
-                        <td><input type="tel" id="phone" name="phone" required style="width:100%; padding: 8px; border: 1px solid #FFD1DC; border-radius: 4px;" placeholder="Enter your phone number"></td>
+                        <td><input type="tel" id="phone" name="phone" required style="width:100%; padding: 8px; border: 1px solid #FFD1DC; border-radius: 4px;" placeholder="Enter your phone number (e.g. 073 844 4801)"></td>
                     </tr>
                     <tr>
                         <td><b><label for="product">Select Choice:</label></b></td>
                         <td>
-                            <!--  SELECT DROPDOWN CONTAINER  -->
                             <select id="product" name="product" style="width:100%; padding: 8px; border: 1px solid #FFD1DC; border-radius: 4px; background-color: #fff;">
                                 <option value="celebration">Celebration Cakes</option>
                                 <option value="themed">Themed Cakes</option>
@@ -85,7 +88,7 @@
 
     <!-- Navigation Breadcrumb -->
     <div style="text-align: center; margin-bottom: 40px;">
-        <a href="index.html" target="_self" style="color: #4A2E2B; text-decoration: none; font-weight: bold; border-bottom: 2px solid #A36B5E; padding-bottom: 2px;">&larr; Back to Home</a>
+        <a href="index.html" style="color: #4A2E2B; text-decoration: none; font-weight: bold; border-bottom: 2px solid #A36B5E; padding-bottom: 2px;">&larr; Back to Home</a>
     </div>
 
     <!-- STANDARD MAIN FOOTER COMPONENT -->
@@ -94,6 +97,8 @@
         <p>&copy; 2026 TS-lets Confectionary | Freshly Baked Daily</p>
     </footer>
 
+    <!-- External JavaScript File link -->
+    <script src="../js/script.js" defer></script>
+
 </body>
 </html>
-
