@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TS-lets Confectionary</title>
+    <meta name="description" content="Welcome to TS-lets Confectionary in Mankweng and Polokwane. We bake fresh celebration cakes, custom treats, popular biscuits, and fresh scones daily.">
+    <title>TS-lets Confectionary - Home</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body class="fade-in-page">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--packed into one single row wrapper -->
+    
     <header class="main-header">
         
         <!-- Logo & Brand Text Grouped Together -->
@@ -19,50 +22,46 @@
                 <img src="../images/logo.jpg" alt="TS-lets Confectionary Logo" style="width: 100%; height: 100%; object-fit: cover; display: block;">
             </div>
             <!-- Brand Text Title Box -->
-            <h1 class="brand-title">Ts lets confectionary</h1>
+            <h1 class="brand-title" style="font-size: 1.5rem; margin: 0;">Ts lets confectionary</h1>
         </div>
 
-        <!--Inline Navigation Menu and Button -->
+        <!-- Inline Navigation Menu  -->
         <nav class="links">
-            <a href="about.html" target="_blank">About Us</a>
-            <a href="products.html" target="_blank">Bakery Menu</a>
-            <a href="contact.html" target="_blank">Contact Us</a>
-            <a href="enquiry.html" target="_blank" class="order-action-link">Place Order</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Bakery Menu</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="enquiry.html" class="order-action-link">Place Order</a>
         </nav>
 
     </header>
 
     <!-- Intro Text Section -->
-    <center>
-        <h2>Welcome to TS-Lets Confectionary!</h2>
-        <p>We bake fresh cakes and custom treats daily with love and premium ingredients.</p>
-    </center>
-        
+    <div style="text-align: center; padding: 40px 20px 20px;">
+        <h2 style="font-family: 'Playfair Display', serif; color: #4A2E2B; font-size: 2.5rem; margin-bottom: 10px;">Welcome to TS-Lets Confectionary!</h2>
+        <p style="color: #5C3A21; font-size: 1.1rem;">We bake fresh cakes and custom treats daily with love and premium ingredients.</p>
     </div>
 
-
-    <!--  Dynamic Product Grid -->
-    <div class="product-grid">
-        <div class="product-card">
-            <div class="image-zoom-box">
-                <img src="../images/cake12.jpg" alt="Celebration Cakes">
+    <!-- Dynamic Product Grid -->
+    <div class="product-grid" style="max-width: 1000px; margin: 0 auto 40px; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+        <div class="product-card" style="background: #fff; border: 2px solid #FFD1DC; border-radius: 12px; padding: 15px; text-align: center;">
+            <div class="image-zoom-box" style="overflow: hidden; border-radius: 8px; height: 200px;">
+                <img src="../images/cake12.jpg" alt="Celebration Cakes" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
-            
-            <p class="product-title">Celebration Cakes</p>
+            <p class="product-title" style="font-weight: bold; color: #4A2E2B; margin-top: 15px; font-size: 1.2rem;">Celebration Cakes</p>
         </div>
 
-        <div class="product-card">
-            <div class="image-zoom-box">
-                <img src="../images/biscuit1.jpg" alt="Popular Biscuits">
+        <div class="product-card" style="background: #fff; border: 2px solid #FFD1DC; border-radius: 12px; padding: 15px; text-align: center;">
+            <div class="image-zoom-box" style="overflow: hidden; border-radius: 8px; height: 200px;">
+                <img src="../images/biscuit1.jpg" alt="Popular Biscuits" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
-            <p class="product-title">Popular Biscuits</p>
+            <p class="product-title" style="font-weight: bold; color: #4A2E2B; margin-top: 15px; font-size: 1.2rem;">Popular Biscuits</p>
         </div>
 
-        <div class="product-card">
-            <div class="image-zoom-box">
-                <img src="../images/scones1.jpg" alt="Fresh Scones">
+        <div class="product-card" style="background: #fff; border: 2px solid #FFD1DC; border-radius: 12px; padding: 15px; text-align: center;">
+            <div class="image-zoom-box" style="overflow: hidden; border-radius: 8px; height: 200px;">
+                <img src="../images/scones1.jpg" alt="Fresh Scones" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
-            <p class="product-title">Fresh Scones</p>
+            <p class="product-title" style="font-weight: bold; color: #4A2E2B; margin-top: 15px; font-size: 1.2rem;">Fresh Scones</p>
         </div>
     </div>   
 
@@ -72,9 +71,8 @@
         <p>&copy; 2026 TS-lets Confectionary | Freshly Baked Daily</p>
     </footer>
 
+    <!-- External JavaScript File link -->
+    <script src="../js/script.js" defer></script>
+
 </body>
 </html>
-
-
-      
-    
