@@ -112,6 +112,16 @@ HTML meta elements provide structured metadata about a web page to search engine
  ├── products.html    (Products Menu / View Bakery Items & Flavors)
  └── enquiry.html     (Order & Inquiry Form / Place Custom Cake Orders)
  └── contact.html     (details about the location, email address and the cellphone number)
+
+
+## Sitemap
+```text
+[root]
+ ├── index.html       (Homepage  Introduction)
+ ├── about.html       (About Us / Story, Mission & Vision and introduction of bakery workers)
+ ├── products.html    (Products Menu / View Bakery Items & Flavors)
+ └── enquiry.html     (Order & Inquiry Form / Place Custom Cake Orders)
+ └── contact.html     (details about the location, email address and the cellphone number)
 ```
 ## This is my github repo link- https://github.com/molefe0612/Web-Development-POE
 ## Changelog
